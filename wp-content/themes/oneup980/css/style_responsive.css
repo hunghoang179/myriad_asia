@@ -617,6 +617,14 @@ tablets in portrait mode will therefores have sticky header once screen height i
     .subscribe-css-email-button{
         width: 116px !important;
     }
+
+    .ct-pr {
+        width: 75px;
+        text-align: right;
+        float: left;
+        line-height: 32px;
+    }
+
     .fix-media{
         margin: 0 0 0 0 !important;
     }
@@ -1162,6 +1170,344 @@ tablets in portrait mode will therefores have sticky header once screen height i
 /*iPhone landscape*/
 /*----------------------------------------------------------------------*/
 @media (max-width: 480px) {
+
+    .content-country{
+        width: 288px !important;
+    }
+
+    .fix-imgs img{
+        width: 70%;
+        height: 50%;
+    }
+
+    .subscribe-css-email-field{
+        width: 152px !important;
+        margin-left: 1px;
+    }
+    .subscribe-css-email-button{
+        width: 116px !important;
+    }
+
+    .ct-pr {
+        width: 75px;
+        text-align: right;
+        float: left;
+        line-height: 32px;
+    }
+
+    .fix-media{
+        margin: 0 0 0 0 !important;
+    }
+
+    .fix-media-1{
+        width: 310px !important;
+        height: 206px !important;
+    }
+    .sl-vi{
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0 auto;
+        color: #fff !important;
+        /* margin-top: 63%; */
+        padding-top: 51px;
+    }
+    .program-info{
+        width: 100%;
+        height: 200px;
+        overflow-y: scroll;
+    }
+
+    .projet-human{
+        width: 100%;
+        height: 200px;
+        overflow-y: scroll;
+        text-align: left;
+        margin: 50px auto 20px auto;
+    }
+
+    .projet-human p{
+        padding: 0 !important;
+    }
+
+    .content-contry{
+        background: #808285;
+        opacity: 0.8;
+        padding: 3px;
+        margin: 0;
+        width: 204px;
+        height: 200px;
+        overflow-y: scroll;
+        font-size: 13px; 
+        text-align: left;
+    }
+
+    .content-contry p{
+        padding: 5px;
+    }
+
+    .fix-posi-lao{
+        display: none !important;
+    }
+    .select-language{
+        margin-left: 213px;
+        position: absolute;
+        z-index: 10;
+        width: 80px;
+    }
+    .select-language select{
+        width:80px;
+    }
+    .fix-paratique{
+        padding: 0;
+        height: 300px;
+        overflow-y: scroll;
+    }
+    .fix-posi-cambodege
+    {
+        display: none !important;
+    }
+    .isotope img {
+        width: 245px;
+        height: 200px;
+    }
+    .content-contry-tow{
+        background: #808285;
+        opacity: 0.8;
+        padding: 3px;
+        text-align: left;
+        margin: 30px auto 0 auto;
+        font-size: 13px; 
+        width: 204px; 
+        height: 200px;
+        overflow-y: scroll;
+    }
+    .fix-ct-tow{
+        margin: 0;
+    }
+    .fix-ct-one{
+        margin: 0;
+    }
+
+    .fix-posi-viet-sm{
+        display: none !important;
+    }
+
+    .fix-posi-thai-three{
+        display: none !important;
+    }
+
+    .content-contry-three{
+        background: #808285;
+        opacity: 0.8;
+        padding: 3px;
+        text-align: left;
+        width: 204px; 
+        height: 200px;
+        overflow-y: scroll;
+        font-size: 13px; 
+        margin: 0;
+    }
+
+    .gastronomie{
+        background: #fff; 
+        opacity: 0.8;
+        padding: 15px;
+        color: #000;
+        height: 560px;
+        overflow-y: scroll;
+    }
+    .fix-reposive{
+        height: 450px;
+        overflow-y: scroll;
+    }
+    .nav-tabs{
+        margin-left: 30px;
+    }
+
+    .fix-ct-three{
+        margin: 0;
+    }
+
+    .fix-posi-thailand{
+        display: none !important;
+    }
+
+    .fix-posi-one-vietnam{
+        display: none !important;
+    }
+
+    .silk-info{
+        height: 280px;
+        overflow-y: scroll;}
+    .sl-thai {
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0 auto;
+        color: #fff !important;
+        /* margin-top: 20%; */
+        padding-top: 45px;
+    }
+
+    .sl_lao {
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0 auto;
+        color: #fff !important;
+        /* margin-top: 12%; */
+        padding-top: 45px;
+    }
+
+    .sl-birma {
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0 auto;
+        color: #fff !important;
+        /* margin-top: 15%; */
+        padding: 45px;
+    }
+
+    .sl-cambo {
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0 auto;
+        color: #fff !important;
+        /* margin-top: 15%; */
+        padding-top: 50px;
+    }
+
+
+    .fix-media-2{
+        margin: 5px 0 0 0 !important;
+        width: 310px !important;
+        height: 206px !important;
+    }
+
+    .fix-media-3{
+        width: 310px !important;
+        height: 206px !important;
+    }
+
+    .fix-media-4{
+        margin: 0 0 0 0 !important;
+    }
+
+    .fix-media-5{
+        margin: 5px 0 0 0 !important;
+        width: 310px !important;
+        height: 96px !important;
+    }
+    .fix-media-6{
+        margin: 5px 0 0 0 !important;
+        width: 306px !important;
+        height: 96px !important;
+    }
+    .wrapper-dropdown-5 .dropdown {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-radius: 0 0 5px 5px;
+        border: 1px solid rgba(0,0,0,0.2);
+        border-top: none;
+        border-bottom: none;
+        list-style: none;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+        max-height: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: 10000;
+        margin-top: -40px;
+    }
+    .wrapper-dropdown-5 .dropdown li{
+        text-align: right;
+    }
+
+    .list-cate-zoom li {
+        position: relative;
+        float: left;
+        cursor: pointer;
+        height: 110px;
+        width: 110px;
+        margin: 10px;
+        color: #fff;
+    }
+
+    .list-cate-zoom li img {
+        height: 110px;
+        width: 110px;
+    }
+    .inspirez-moi{
+        background: #dd4a4d;
+        color: #fff;
+        text-align: center;
+        width: 110px;
+        height: 110px;
+        padding: 44px 0;
+        border: 0;
+        font-size: 16px;
+    }
+    .list-cate-day-tour li {
+        position: relative;
+        float: left;
+        cursor: pointer;
+        height: 115px;
+        width: 100%;
+        margin: 0 20px 0 -3px;
+        color: #fff;
+        padding: 0 12px;
+    }
+    .list-cate-day-tour li img {
+        height: 110px;
+        width: 100%;
+    }
+    .banner-zoom-vn{
+        width: 100%;
+        height: 200px;
+        background-position: 50% 1px;
+    }
+    .fix-zoom-vn{
+        margin-top: -55px;
+    }
+    .left-banner-zoom {
+        float: left;
+        margin: 28px 0 5px 0;
+        width: 280px;
+    }
+    .content-cm-zoom {
+        background: #717677;
+        color: #fff;
+        padding: 8px;
+        opacity: 0.8;
+        float: left;
+        width: 280px;
+    }
+    .link-cm {
+        width: 280px;
+        float: left;
+        margin: 2px 0 0 0;
+    }
+    .list-cate-zoom i {
+        margin: -94px 0 0 37px;
+        position: absolute;
+        z-index: 10;
+    }
+    .list-cate-zoom h6 {
+        color: #fff;
+        vertical-align: middle;
+        margin: -57px 0 0 5px;
+        position: absolute;
+        width: 105px;
+        text-align: center;
+    }
+    .list-cate-day-tour li h6 {
+        margin: -86px 0 0 68px;
+        text-align: center;
+    }
 
     .ios .pe-header-transparent .pe-menu-sticky .pe-menu-main .menu-toggle{
         opacity:1;

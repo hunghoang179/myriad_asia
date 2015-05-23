@@ -22,7 +22,7 @@ define('SCRIPT_DEBUG', true);
 
 define('WP_LANG', 'vi_VN');
 
-define('DB_NAME', 'hanoivoyage');
+define('DB_NAME', 'myriadasia');
 
 /** MySQL database username */
 define('DB_USER', 'root');

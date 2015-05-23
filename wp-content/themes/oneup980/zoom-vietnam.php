@@ -19,8 +19,8 @@
 <?php $t = & peTheme(); ?>
 <?php get_header(); ?>
 <?php $t->layout->sidebar = isset($_REQUEST["pe-no-sb"]) ? "no" : "right"; ?>
-<section class="pe-main-section pe-view-layout-block pe-view-layout-block-1 pe-style-light pe-bg-center " id="section-section1" style="padding: 12px 0px 0px; background-image: url(<?php bloginfo('template_directory'); ?>/img/country/vietnam/banner-zoomvn.png); background-position: 50% 52px; background-repeat: no-repeat;box-shadow: inset 0 0 0 160px rgba(75,75,75, 0.1), inset 0 0 0 160px rgba(75,75,75,0.2), 0 1px 2px rgba(0,0,0,0.1);  width: 1350px; margin: 0 auto;">
-    <div class="pe-container" style="min-height: 240px;">  
+<section class="pe-main-section pe-view-layout-block pe-view-layout-block-1 pe-style-light pe-bg-center banner-zoom-vn" id="section-section1" style="padding: 12px 0px 0px; background-image: url(<?php bloginfo('template_directory'); ?>/img/country/vietnam/banner-zoomvn.png);  background-repeat: no-repeat;box-shadow: inset 0 0 0 160px rgba(75,75,75, 0.1), inset 0 0 0 160px rgba(75,75,75,0.2), 0 1px 2px rgba(0,0,0,0.1);  margin: 0 auto;">
+    <div class="pe-container fix-zoom-vn" style="min-height: 240px;">  
         <div class="row">
             <div class="col-md-6">
                 <div class="left-banner-zoom">
@@ -165,7 +165,7 @@
                 }
                 ?> 
                 <li>
-                    <button style="background: #dd4a4d; color: #fff; text-align: center;width: 172px; height: 180px; padding: 75px 0;border: 0">
+                    <button class="inspirez-moi">
                         INSPIREZ-MOI
                     </button>
                 </li>

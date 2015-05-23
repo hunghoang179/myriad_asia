@@ -5464,7 +5464,7 @@ body.pe-has-bg-video .footer{
 }
 /* Subscribe By Email */
 .footer #subscribe-css{padding:3px 0;position:relative; float: left; width: 100%}
-.footer .subscribe-wrapper{color:#808285;font-size:12px;line-height:20px;margin: 25px 0 0 0;text-transform:none;font-weight:500; font-size: 18px;}
+.footer .subscribe-wrapper{color:#000;font-size:12px;line-height:20px;margin: 25px 0 0 0;text-transform:none;font-weight:500; font-size: 18px;}
 .footer .subscribe-form{clear:both;display:block;margin:10px 0;overflow:hidden}
 form.subscribe-form{clear:both;display:block;width:auto;overflow:hidden}
 .footer .subscribe-css-email-field{background:#eee url(../../../../wp-content/themes/oneup980/img/skin/email-icon.png) no-repeat 8px 11px;color:#444;padding:9px 40px;width:65%;border:1px solid #808285;}
@@ -6877,7 +6877,7 @@ html ul.tabs-gas li.active, html ul.tabs-gas li.active a:hover  {
     cursor: pointer;
     height: 385px;
     width: 160px;
-    margin: 0 0 0 -25px;
+    margin: -8px 0 0 -25px;
     color: #fff;
 }
 .list-cate-day-tour li h6{
@@ -7793,4 +7793,11 @@ html ul.tabs li.active .icon-paratique-lava{
     text-align: left;
     height: 25px;
     margin-bottom: 40px;
+}
+.banner-zoom-vn{
+     width: 1350px;
+     background-position: 50% 52px;
+}
+.inspirez-moi{
+    background: #dd4a4d; color: #fff; text-align: center;width: 172px; height: 180px; padding: 75px 0;border: 0
 }
