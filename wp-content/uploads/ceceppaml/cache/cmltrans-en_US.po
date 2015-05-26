@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cml_translations\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-22 06:39+0100\n"
-"PO-Revision-Date: 2015-05-22 06:39+0100\n"
+"POT-Creation-Date: 2015-05-26 03:32+0100\n"
+"PO-Revision-Date: 2015-05-26 03:32+0100\n"
 "Last-Translator: H H <hunght1188@gmail.com>\n"
 "Language-Team: \n"
 "Language: %LOCALE%\n"
@@ -207,6 +207,12 @@ msgstr "a:4:{s:2:\"en\";s:3:\"481\";s:2:\"fr\";s:3:\"481\";s:7:\"indexes\";a:2:{
 
 msgid "__cml_lang_3__481"
 msgstr "a:4:{s:2:\"en\";s:3:\"481\";s:2:\"fr\";s:3:\"481\";s:7:\"indexes\";a:2:{s:2:\"en\";s:3:\"481\";s:2:\"fr\";s:3:\"481\";}s:6:\"linked\";a:1:{s:2:\"fr\";s:3:\"481\";}}"
+
+msgid "__cml_lang_1__1276"
+msgstr "a:4:{s:2:\"en\";s:4:\"1276\";s:2:\"fr\";s:1:\"0\";s:7:\"indexes\";a:1:{s:2:\"en\";s:4:\"1276\";}s:6:\"linked\";a:0:{}}"
+
+msgid "__cml_lang_1__1282"
+msgstr "a:4:{s:2:\"en\";s:4:\"1282\";s:2:\"fr\";s:1:\"0\";s:7:\"indexes\";a:1:{s:2:\"en\";s:4:\"1282\";}s:6:\"linked\";a:0:{}}"
 
 msgid "_cml_menu_meta_fr_391"
 msgstr "a:3:{s:5:\"title\";s:0:\"\";s:9:\"url_value\";s:0:\"\";s:10:\"attr_title\";s:0:\"\";}"
