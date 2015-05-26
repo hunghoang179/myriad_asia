@@ -203,7 +203,7 @@
                                                 global $current_user;
                                                 get_currentuserinfo();
                                                 $username = $current_user->user_login;
-                                                echo get_avatar($id_or_email, $size, $default, $alt);
+                                                echo get_avatar($id_or_email, 40, $default, $alt);
                                                 echo '<span style="margin-left:10px">' . substr($username, 0, 8) . '</span>';
                                                 ?>
                                                 <ul class="dropdown">

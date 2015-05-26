@@ -16,7 +16,7 @@ get_currentuserinfo();
 <?php get_header(); ?>
 <?php $t->layout->sidebar = isset($_REQUEST["pe-no-sb"]) ? "no" : "right"; ?>
 <div class="pe-container">
-    <div class="row" style="margin: 55px 0 20px 0">
+    <div class="row e-pro-u">
         <div  class="col-md-3">
             <ul id="sidemenu">
                 <li>
@@ -60,7 +60,8 @@ get_currentuserinfo();
                                     </p><!-- .warning -->
                                 <?php else : ?>
                                     <?php if (count($error) > 0) echo '<p class="error">' . implode("<br />", $error) . '</p>'; ?>
-                                    <div class="col-md-3">                                        
+                                    <div class="col-md-3">    
+                                        <div class="avatar-u-tem">
                                         <?php
                                         //echo do_shortcode('[avatar_upload] ');
                                         //echo do_shortcode('[avatar user="admin" size="150" align="left" link="file" /]');
@@ -69,18 +70,48 @@ get_currentuserinfo();
                                         ?>  
                                         <button type="button" class="btn-edit-profile-user" data-toggle="modal" data-target="#myModal"><?php echo do_shortcode('[cml_text en="Modifier ma photo" fr="Edit photo"]') ?></button>
                                         <?php //echo get_simple_local_avatar($id_or_email, $size, $default, $alt) ?>
+                                        </div>
 
                                     </div>
-                                    <div class="col-md-6">
-                                        <strong><?php echo do_shortcode('[cml_text en="Firt name" fr="Prénom"]') ?>:</strong> <?php the_author_meta('first_name', $current_user->ID); ?><br/>
-                                        <strong><?php echo do_shortcode('[cml_text en="Last name" fr="Nom"]') ?>:</strong> <?php the_author_meta('last_name', $current_user->ID); ?><br/>
-                                        <strong><?php echo do_shortcode('[cml_text en="DOB" fr="Date de naissance"]') ?>:</strong> <?php the_author_meta('dob', $current_user->ID); ?><br/>
-                                        <strong><?php echo do_shortcode('[cml_text en="Email" fr="Email"]') ?>:</strong> <?php the_author_meta('user_email', $current_user->ID); ?><br/>
-                                        <strong><?php echo do_shortcode('[cml_text en="Phone number" fr="Téléphone"]') ?>:</strong> <?php the_author_meta('phone', $current_user->ID); ?><br/>
-                                        <strong><?php echo do_shortcode('[cml_text en="Address" fr="Adresse"]') ?>:</strong> <?php the_author_meta('address', $current_user->ID); ?><br/>
-                                        <strong><?php echo do_shortcode('[cml_text en="Zip code" fr="Code postal"]') ?>:</strong> <?php the_author_meta('zipcode', $current_user->ID); ?><br/>
-                                        <strong><?php echo do_shortcode('[cml_text en="City" fr="Ville"]') ?>:</strong> <?php the_author_meta('city', $current_user->ID); ?><br/>
-                                        <strong><?php echo do_shortcode('[cml_text en="Country" fr="Pays"]') ?>:</strong> <?php the_author_meta('country', $current_user->ID); ?><br/>
+                                    <div class="col-md-6 profile-u-tem">
+                                        <div class="title-ct">
+                                            <strong><?php echo do_shortcode('[cml_text en="Firt name" fr="Prénom"]') ?></strong> 
+                                        </div>
+                                        <p><?php the_author_meta('first_name', $current_user->ID); ?></p>
+
+                                        <div class="title-ct">
+                                            <strong><?php echo do_shortcode('[cml_text en="Last name" fr="Nom"]') ?></strong> 
+                                        </div>
+                                        <p><?php the_author_meta('last_name', $current_user->ID); ?></p>
+
+                                        <div class="title-ct">
+                                            <strong><?php echo do_shortcode('[cml_text en="DOB" fr="Date de naissance"]') ?></strong> 
+                                        </div>
+                                        <p><?php the_author_meta('dob', $current_user->ID); ?></p>
+                                        <div class="title-ct">
+                                            <strong><?php echo do_shortcode('[cml_text en="Email" fr="Email"]') ?></strong> 
+                                        </div>
+                                        <p><?php the_author_meta('user_email', $current_user->ID); ?></p>
+                                        <div class="title-ct">
+                                            <strong><?php echo do_shortcode('[cml_text en="Phone number" fr="Téléphone"]') ?></strong> 
+                                        </div>
+                                        <p><?php the_author_meta('phone', $current_user->ID); ?></p>
+                                        <div class="title-ct">
+                                            <strong><?php echo do_shortcode('[cml_text en="Address" fr="Adresse"]') ?></strong> 
+                                        </div>
+                                        <p><?php the_author_meta('address', $current_user->ID); ?></p>
+                                        <div class="title-ct">
+                                            <strong><?php echo do_shortcode('[cml_text en="Zip code" fr="Code postal"]') ?></strong>
+                                        </div>
+                                        <p><?php the_author_meta('zipcode', $current_user->ID); ?></p>
+                                        <div class="title-ct">
+                                            <strong><?php echo do_shortcode('[cml_text en="City" fr="Ville"]') ?></strong>
+                                        </div>
+                                        <p> <?php the_author_meta('city', $current_user->ID); ?></p>
+                                        <div class="title-ct">
+                                            <strong><?php echo do_shortcode('[cml_text en="Country" fr="Pays"]') ?></strong> 
+                                        </div>
+                                        <p><?php the_author_meta('country', $current_user->ID); ?></p>
 
                                     </div>
                                 <?php endif; ?>
